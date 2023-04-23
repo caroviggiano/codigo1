@@ -1,81 +1,82 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>  Cozy Crochet</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title> Cozy Crochet</title>
 </head>
-<body>
-    <!-- PASO UN CREAR UN REPOSITORIO EN GITHUB, ME DA UNA SERIE DE COMANDOS
-    LOS PEGO, ADD .  PARA CAMBIOS Y COMMIT PARA MENSAJES 
-GIT REMOTE PARA CONECTAR LA PC CON EL REPOSITORIO
-POR ULTIMO GIT PUSH PARA LLEVAR LOS COMANDOS A LA NUBE
-AHI YA EN NUESTRO REPOSITORIO ESTA TODO SUBIDO
-VAMOS A SETTING LUEGO A PAGES Y VAMOS A LA BRANCH QUE QUERES QUE SE SUBA
-LAS RAMAS SE USAN SI ESTAS TRABAJANDO COLABORATIVAMENTE -->
-<header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
 
-          <a class="navbar-brand" href="#">Cozy Crochet</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<body class="body-style">
+  <!-- PASO UN CREAR UN REPOSITORIO EN GITHUB, ME DA UNA SERIE DE COMANDOS
+      LOS PEGO, ADD .  PARA CAMBIOS Y COMMIT PARA MENSAJES 
+  GIT REMOTE PARA CONECTAR LA PC CON EL REPOSITORIO
+  POR ULTIMO GIT PUSH PARA LLEVAR LOS COMANDOS A LA NUBE
+  AHI YA EN NUESTRO REPOSITORIO ESTA TODO SUBIDO
+  VAMOS A SETTING LUEGO A PAGES Y VAMOS A LA BRANCH QUE QUERES QUE SE SUBA
+  LAS RAMAS SE USAN SI ESTAS TRABAJANDO COLABORATIVAMENTE -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-style">
+      <div class="container-fluid">
+        <img src="../imagenes/logo.webp" alt="logo" height="100" class="m-1">
+        <a class="navbar-brand navbar-title" href="index.html">Cozy Crochet</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fs-6"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
 
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
+            <li class="nav-item ">
+              <a class="nav-link active  " aria-current="page" href="index.html">Home</a>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/productos.html">Productos</a>
-              </li>
-
-              
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/cuenta.html" > Mi cuenta </a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/sobremi.html" > Sobre mi </a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/novedades.html"> Novedades </a>
-              </li>
-
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/productos.html">Productos</a>
+            </li>
 
 
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/cuenta.html"> Mi cuenta </a>
+            </li>
 
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/sobremi.html"> Sobre mi </a>
+            </li>
 
-
-            
-          </div>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/novedades.html"> Novedades </a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-danger" type="submit">Buscar</button>
+          </form>
         </div>
-      </nav>
-</header>
+      </div>
+    </nav>
+  </header>
+  <div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+    <h1 class="display-5 fw-bold text-body-emphasis">Centered hero</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
+        popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive
+        prebuilt components, and powerful JavaScript plugins.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+      </div>
+    </div>
+  </div>
 
 
 
-
-
-
-    
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
 </html>
