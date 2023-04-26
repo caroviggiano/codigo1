@@ -17,3 +17,13 @@ body{
 .nav-link{
     font-family: 'Castoro Titling', cursive;
 }
+
+h1{
+    font-family: 'Bruno Ace', cursive;
+   color: rgb(101, 14, 29);
+}
+
+h2{
+    font-family: 'Sigmar', cursive;
+    color: rgb(187, 118, 251);
+}
