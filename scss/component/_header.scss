@@ -1,0 +1,28 @@
+@import "../base/variable";
+@import "../base/colores";
+@import "../base/extends";
+@import "../base/mixins";
+@import "../base/listas";
+
+header {
+    background-color:nth ($colores,7);
+ nav{
+    border:1px solid darken ($rosa-principal,20%);
+     ul{
+             list-style-type: none;
+         li{
+
+             a{
+
+                 text-decoration: none;
+                 background-color: $rosa-principal;
+                 /* & */
+                 &:hover{
+                    text-decoration: underline;
+                    background-color: lighten ($rosa-principal, 20%);
+                 }
+             }
+         }
+     }
+ }
+}

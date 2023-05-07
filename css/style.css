@@ -1,33 +1,20 @@
-.navbar-style{
-background-color: rgb(247, 229, 232);
+header {
+  background-color: nth pink, rgb(254, 123, 145), rgb(254, 234, 238), rgb(244, 88, 88) 248, 74, 74 248, 74, 74 251, 49, 49, rgb(127, 94, 94), red rgb(247, 229, 232), 7;
+}
+header nav {
+  border: 1px solid darken rgb(218, 199, 202), 20%;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  background-color: rgb(218, 199, 202);
+  /* & */
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+  background-color: lighten rgb(218, 199, 202), 20%;
 }
 
-.navbar-title{
-    font-family: 'Sigmar', cursive;
-}
-
-body{
-    background-color: rgb(218, 199, 202);
-}
-
-.button-style{
-    background-color: pink;
-}
-
-.nav-link{
-    font-family: 'Castoro Titling', cursive;
-}
-
-h1{
-    font-family: 'Bruno Ace', cursive;
-   color: rgb(101, 14, 29);
-}
-
-h2{
-    font-family: 'Sigmar', cursive;
-    color: rgb(187, 118, 251);
-}
-.p-style{
-    font-family: 'Castoro Titling', cursive;
-    font-size: 20px;
-}
+/*# sourceMappingURL=style.css.map */
