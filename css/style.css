@@ -1,0 +1,33 @@
+.navbar-style{
+background-color: rgb(247, 229, 232);
+}
+
+.navbar-title{
+    font-family: 'Sigmar', cursive;
+}
+
+body{
+    background-color: rgb(218, 199, 202);
+}
+
+.button-style{
+    background-color: pink;
+}
+
+.nav-link{
+    font-family: 'Castoro Titling', cursive;
+}
+
+h1{
+    font-family: 'Bruno Ace', cursive;
+   color: rgb(101, 14, 29);
+}
+
+h2{
+    font-family: 'Sigmar', cursive;
+    color: rgb(187, 118, 251);
+}
+.p-style{
+    font-family: 'Castoro Titling', cursive;
+    font-size: 20px;
+}
