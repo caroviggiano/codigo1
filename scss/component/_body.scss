@@ -1,0 +1,9 @@
+@import "../base/variable";
+@import "../base/colores";
+@import "../base/extends";
+@import "../base/mixins";
+@import "../base/listas";
+
+.body-colour{
+    background-color: ($rosa-principal);
+    }

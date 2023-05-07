@@ -5,7 +5,8 @@
 @import "../base/listas";
 
 header {
-    background-color:nth ($colores,7);
+    background-color: ($rosa-header);
+    font-family: 'Sigmar', cursive;
  nav{
     border:1px solid darken ($rosa-principal,20%);
      ul{
@@ -13,13 +14,14 @@ header {
          li{
 
              a{
-
                  text-decoration: none;
                  background-color: $rosa-principal;
-                 /* & */
+                 font-family: 'Sigmar', cursive;
                  &:hover{
-                    text-decoration: underline;
-                    background-color: lighten ($rosa-principal, 20%);
+                    text-decoration: none;
+                    transform: scale(1.3);
+                    background-color: lighten ($rosa-header 20%);
+                    
                  }
              }
          }
