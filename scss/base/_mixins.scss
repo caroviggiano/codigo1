@@ -12,9 +12,13 @@
 
 
 @mixin parrafo($padding, $border) {
-
     border:$border;
     padding:$padding;
+    
+}
+
+@mixin body($back-color) {
+    background-color:$back-color;
     
 }
 
@@ -26,5 +30,24 @@ background-color: nth ($colores,4);
 .p-style{
     font-family: 'Castoro Titling', cursive;
     font-size: 20px;
-    @include parrafo (20px, 2px solid );
+   
 }
+
+body{
+   
+    @include body ($rosa-principal); 
+
+    h1{
+        font-family: 'Bruno Ace', cursive;
+       color:nth($colores,7);
+    }
+    h2{
+        font-family: 'Sigmar', cursive;
+        color:nth($colores,8);
+    }
+    
+}
+
+
+
+
