@@ -1,5 +1,17 @@
+@import "./variable";
+@import "./colores";
+@import "./extends";
+@import "./listas";
 
 @mixin botones($padding, $border) {
+
+    border:$border;
+    padding:$padding;
+    
+}
+
+
+@mixin parrafo($padding, $border) {
 
     border:$border;
     padding:$padding;
@@ -9,4 +21,10 @@
 .button-style{
 background-color: nth ($colores,4);
     @include botones(20px, 2px solid pink);
+}
+
+.p-style{
+    font-family: 'Castoro Titling', cursive;
+    font-size: 20px;
+    @include parrafo (20px, 2px solid );
 }
