@@ -1,0 +1,12 @@
+
+@mixin botones($padding, $border) {
+
+    border:$border;
+    padding:$padding;
+    
+}
+
+.button-style{
+background-color: nth ($colores,4);
+    @include botones(20px, 2px solid pink);
+}

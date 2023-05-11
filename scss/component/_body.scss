@@ -4,6 +4,25 @@
 @import "../base/mixins";
 @import "../base/listas";
 
-.body-colour{
+body{
     background-color: ($rosa-principal);
-    }
+   
+}
+
+.button-style{
+    background-color:$bg-general;
+}
+
+h1{
+    font-family: 'Bruno Ace', cursive;
+   color: rgb(101, 14, 29);
+}
+
+h2{
+    font-family: 'Sigmar', cursive;
+    color: rgb(187, 118, 251);
+}
+.p-style{
+    font-family: 'Castoro Titling', cursive;
+    font-size: 20px;
+}

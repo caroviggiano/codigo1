@@ -3,3 +3,9 @@
 @import "../base/extends";
 @import "../base/mixins";
 @import "../base/listas";
+
+
+footer{
+    background-color: ($rosa-header);
+    font-family: 'Sigmar', cursive;
+}
