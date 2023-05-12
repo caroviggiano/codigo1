@@ -10,11 +10,10 @@
     
 }
 
-
 @mixin parrafo($padding, $border) {
     border:$border;
     padding:$padding;
-    
+
 }
 
 @mixin body($back-color) {
@@ -24,7 +23,7 @@
 
 .button-style{
 background-color: nth ($colores,4);
-    @include botones(20px, 2px solid pink);
+    @include botones(10px, 2px solid pink);
 }
 
 .p-style{
@@ -34,7 +33,6 @@ background-color: nth ($colores,4);
 }
 
 body{
-   
     @include body ($rosa-principal); 
 
     h1{
@@ -45,7 +43,6 @@ body{
         font-family: 'Sigmar', cursive;
         color:nth($colores,8);
     }
-    
 }
 
 
